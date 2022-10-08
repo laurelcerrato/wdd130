@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Poppins:wght@300&display=swap');
+
+body {
+    background-color: lightpink;
+    text-align: center;
+    font-style: Poppins;
+    font-size: 18px;
+}
+img{
+    width: 20%;
+}
+ol{
+    font-display: block;
+    margin: 0 auto;
+    
+}
+h1:hover{
+    color: rgb(1, 6, 10);
+}
+h1, h2, h3 {
+    color: aliceblue;
+}
+.quote{
+    font-size:  1.5em;
+    
+}
