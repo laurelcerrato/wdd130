@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Poppins:wght@300&display=swap');
 body{
     background-color: #e0e1dd;
+    font-family: Poppins, Helvetica, sans-serif;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
 }
 header{
     background-color:#0d1b2a;
@@ -12,6 +17,10 @@ nav a:hover{
     background-color:#e0e1dd;
     color:#0d1b2a;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color:#415a77;
@@ -25,6 +34,7 @@ nav a {
     text-align: center;
     color:#778da9;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -41,22 +51,32 @@ main section {
 }
 .msg{
     background-color: #778da9;
+    line-height: 1.5em ;
+    padding: 35px;
 }
 footer{
     background-color: #415a77;
     color: #0d1b2a;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .home-title{
+    font-family: "Julius Sans One", Poppins, Helvetica;
     color: #0d1b2a;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4{
     color: #0d1b2a;
 }
 .msg h2{
+    font-family: "Julius Sans One", Poppins, Helvetica ;
     color: #0d1b2a;
 }
 .msg p{
     color: #0d1b2a;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer a{
     color: #0d1b2a;
@@ -67,6 +87,10 @@ footer a:hover{
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
+}
+.logo {
+    width: 80px;
 }
 #hero-img {
     width: 100%;
@@ -76,4 +100,22 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
-}    
+}
+h2 {
+    margin: 0;
+}
+#logo-link {
+    padding-top: 5px;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #0d1b2a;
+}
+main section img{
+    box-sizing: border-box;
+}
