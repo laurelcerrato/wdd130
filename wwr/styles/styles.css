@@ -190,7 +190,6 @@ footer .social img{
 .rivers-grid{
     display: grid;
     grid-template-columns: repeat(10, 1fr);
-    grid-gap: 20px;
     margin: 0%;
 }
 .salmon-image, .desolation-image, .grand-image{
@@ -200,6 +199,11 @@ footer .social img{
     width: 100%;
     margin: 200px 0
     
+}
+.salmon-image:hover, .desolation-image:hover, .grand-image:hover{
+    opacity: .6;
+    transform: scale(1.1);
+
 }
 .rivers-title{
     font-family: "Julius Sans One", Poppins, Helvetica;
@@ -222,19 +226,20 @@ footer .social img{
     grid-column: 2/6;
     grid-row: 3/7 ;
     margin:  0;
-
-
+    padding: 35px;
 }
 .desolation{
     grid-column: 2/6;
     grid-row: 8/12;
     margin: 0;
+    padding: 35px;
 
 }
 .grand{
     grid-column: 2/6;
     grid-row: 13/17;
     margin: 0;
+    padding: 35px;
 
 }
 .river-names{
@@ -305,5 +310,9 @@ footer .social img{
     }
     footer {
         margin-top: 25px;
+    }
+    .rivers-grid{
+        display: block;
+        height: auto;
     }
 }
