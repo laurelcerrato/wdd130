@@ -263,7 +263,7 @@ footer .social img{
 }
 .grand-image{
     grid-column: 7/10;
-    grid-row: 14/16;
+    grid-row: 14/16; 
     justify-content: center;
     align-content: center;
 
@@ -311,5 +311,9 @@ footer .social img{
     .rivers-grid{
         display: block;
         height: auto;
+    }
+    .salmon, .desolation, .grand{
+        margin: 50px auto;
+        width: 60%;
     }
 }
