@@ -169,7 +169,7 @@ footer a{
     background-position: right;
     color: #fefee3;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 900px) {
     #hands, .home-grid {
         display: block;
         height: auto;
