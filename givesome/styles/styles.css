@@ -57,7 +57,7 @@ nav a:hover{
 #hands-msg {
     grid-column: 2/3;
     grid-row: 1/2;
-    margin-top: 380px;
+    margin-top: 385px;
 }
 #hands-msg h1{
     text-align: center;
