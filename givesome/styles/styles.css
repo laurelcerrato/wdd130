@@ -64,7 +64,7 @@ nav a:hover{
     font-family: "Concert One", Arial, Helvetica, sans-serif;
     font-size: 50px;
     background: rgb(255, 200, 184, 0.7);
-    padding: 10px;
+    padding: 20px;
     border-radius: 10px;
     text-align: center;
 }
@@ -306,6 +306,9 @@ footer p{
     .donate{
         width: 100%;
         margin-left: 10px;
+    }
+    .middle, .donate-container{
+        width: 100%;
     }
     footer {
         margin-top: 25px;
