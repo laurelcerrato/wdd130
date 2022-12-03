@@ -128,6 +128,127 @@ nav a:hover{
     grid-template-columns: repeat(4,1fr);
     margin: 0;
 }
+.donate-top-box{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.donate-top-msg{
+    grid-column: 1/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #ffc9b9;
+    margin: 25px;
+    border-radius: 20px;
+    height: 60%;
+    align-self: center;
+    justify-self: center;
+    padding: 20px;
+    border:10px solid #8C0303 ;
+}
+.donate-top-msg p{
+    grid-column: 1/3;
+    text-align: center;
+    justify-content:center;
+    align-self: center;
+}
+.donate-msg-img{
+    align-self: center;
+    grid-column: 3/4;
+    width: 100%;
+}
+
+ul a{
+    text-decoration: none;
+    color: #000000;
+
+}
+ul a:hover{
+    font-weight: bold;
+    color:#fefee3;
+}
+.make-a-diff-container {
+    position: relative;
+    grid-column: 3/5;
+    width: 100%;
+    }
+.make-a-diff-image {
+    display: block;
+    height: auto;
+    grid-column: 3/5;
+    grid-column: 3/5;
+    width: 80%;
+    border-radius: 10px;
+    align-self: center;
+    justify-self:center ;
+    margin: 25px;
+    box-shadow: 5px 5px 10px #6f7364
+    }
+.make-a-diff-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:rgb(255, 201, 185,0.8);
+    grid-column: 3/5;
+    width: 80%;
+    border-radius: 10px;
+    align-self: center;
+    justify-self:center ;
+    margin: 25px;
+    box-shadow: 5px 5px 10px #6f7364
+    }
+.make-a-diff-container:hover .make-a-diff-overlay {
+    opacity: 1;
+    align-self: center;
+    }
+.make-a-diff-text {
+    color:#000000;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    }
+.categories{
+    background-color: rgb(255, 201, 185,0.6);
+    grid-column: 1/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.categories section{
+    justify-content: space-around;
+    align-self: center;
+    justify-self:center;
+    padding: 25px;
+    margin: 25px;
+    background-color: rgb(83, 170, 121,0.6);
+    border-radius: 20px;
+}
+.categories section h3{
+    text-align: center;
+    font-size: 30px;
+    font-family: "Concert One", Arial, Helvetica, sans-serif;
+}
+.categories-top-msg{
+    grid-column: 1/4;
+    grid-row: 1/2;
+    text-align: center;
+    padding-top: 25PX;
+}
+.donate-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0;
+    background-color: #fefee3;
+}
 .home-info{
     grid-column: 1/3;
     text-align: center;
@@ -267,7 +388,7 @@ footer p{
 
 
 @media screen and (max-width: 1200px) {
-    #hands, #laptop,.why-donate-grid, .home-grid {
+    #hands, #laptop,.why-donate-grid, .home-grid, .donate-grid {
         display: block;
         height: auto;
     }
