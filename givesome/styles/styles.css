@@ -439,4 +439,16 @@ footer p{
         display: block;
         margin: 0 auto;
     }
+    .make-a-diff-overlay{
+        display: none;
+    }
+    .donate-top-box, .categories{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .make-a-diff-image{
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
